@@ -1,88 +1,49 @@
-/* First lets set a background */
-.bg{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('https://images.unsplash.com/photo-1431352832634-845fad190fbd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ec80c41e488dc2b99ed543df2f3f0919');
-  background-position: center center;
-  background-origin: content-box;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: -2;
-}
+# **Gerenciamento e Controle de Atividades no Desenvolvimento de Software**
 
-/* Now the same background, but with brightness filters*/
-.lightning{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('https://images.unsplash.com/photo-1431352832634-845fad190fbd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ec80c41e488dc2b99ed543df2f3f0919');
-  background-position: center center;
-  background-origin: content-box;
-  background-size: cover;
-  background-attachment: fixed;
-  -webkit-filter: brightness(3);
-  filter: brightness(3);
-  -o-filter: brightness(3);
-  -moz-filter: brightness(3);
-  z-index: -1;
-}
+Benefícios do Gerenciamento e Controle de Atividades
 
-/*Now just a opacity animation*/
-.flashit{
--webkit-animation: flash ease-out 7s infinite;
-animation: flash ease-out 7s infinite;
--webkit-animation-delay: 2s;
-        animation-delay: 2s;
-}
+O gerenciamento e controle de atividades no desenvolvimento de software são essenciais para garantir eficiência, qualidade e organização nos projetos. Com a utilização de um repositório centralizado e bem estruturado, os times de desenvolvimento podem obter diversas vantagens. Abaixo, destacamos os principais benefícios:
 
-@-webkit-keyframes flash {
-	from { opacity: 0; } 
-  92% { opacity: 0; }
-	93% { opacity: 0.6; }
-  94% { opacity: 0.2; }
-  96% { opacity: 0.9; } 
-	to { opacity: 0; }
-}
+1. Melhoria na Organização e Rastreabilidade
 
-@keyframes flash {
-	from { opacity: 0; } 
-    92% { opacity: 0; }
-	93% { opacity: 0.6; }
-    94% { opacity: 0.2; }
-    96% { opacity: 1; } 
-	to { opacity: 0; }
-}
-/*End! is that simple! */
+Permite que todas as tarefas e mudanças sejam documentadas e rastreadas de forma estruturada.
 
-/*Now just some stupid logo to get some look and feel */
-#logo{
-  z-index:1000;
-  width: 100%;
-  font-size: 6rem;
-  color: white;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-left: -18rem;
-  margin-top: -2rem;
-  font-weight: 900;
-}
-#logo span{ font-weight: 100;}
+Histórico detalhado das alterações facilita a auditoria e recuperação de informações.
 
-html , body{
-  font-family: "Titillium Web", "lato" , sans-serif;
-}
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,900|Lato:100,300,900);
+2. Colaboração e Comunicação Aprimoradas
 
-@media screen and (max-width: 630px){
-  #logo{
-    font-size: 3rem;
-    margin-left: -9rem;
-    margin-top: -1rem;
-  }
-}
+Facilidade na comunicação entre os membros do time, garantindo que todos estejam alinhados com o progresso do projeto.
+
+Redução de falhas na comunicação, pois as tarefas são registradas de forma clara e objetiva.
+
+3. Aumento da Produtividade e Eficiência
+
+Com fluxos de trabalho bem definidos, há menos tempo perdido com atividades redundantes.
+
+Automatização de processos reduz o esforço manual e aumenta a velocidade de entrega.
+
+4. Monitoramento e Controle de Prazos
+
+Permite a criação de cronogramas e acompanhamento do status de cada tarefa.
+
+Identificação rápida de gargalos e impedimentos, possibilitando ações corretivas em tempo hábil.
+
+5. Melhoria na Qualidade do Código e do Produto Final
+
+Repositórios bem gerenciados permitem revisões de código mais eficientes.
+
+Padrões e boas práticas podem ser aplicados de forma consistente em todo o projeto.
+
+6. Facilidade na Integração Contínua e Entrega Contínua (CI/CD)
+
+Integração com ferramentas de CI/CD para automação de testes e deploys.
+
+Redução de erros na entrega de novas funcionalidades.
+
+7. Segurança e Controle de Acessos
+
+Permissão de acessos personalizados para evitar alterações indevidas.
+
+Backup e versionamento garantem a recuperação de informações em caso de falhas.
+
+Com a implementação de um gerenciamento eficaz de atividades no desenvolvimento de software, o time se torna mais produtivo, organizado e focado em entregar um produto de qualidade dentro dos prazos estabelecidos. Essa prática fortalece a cultura de colaboração e inovação dentro da equipe.
